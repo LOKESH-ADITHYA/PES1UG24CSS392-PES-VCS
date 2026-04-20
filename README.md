@@ -11,11 +11,11 @@
 
 #### 1A: test_objects output
 
-![Phase 1A](screenshots/phase1_test.png)
+![Phase 1A](screenshots/1a.jpg)
 
 #### 1B: object storage structure
 
-![Phase 1B](screenshots/phase1_objects.png)
+![Phase 1B](screenshots/1b.jpg)
 
 ### Implementation
 
@@ -32,11 +32,11 @@ Implemented `object_write` and `object_read` in `object.c`.
 
 #### 2A: test_tree output
 
-![Phase 2A](screenshots/phase2_tree.png)
+![Phase 2A](screenshots/2a.jpg)
 
 #### 2B: raw tree object (xxd)
 
-![Phase 2B](screenshots/phase2_xxd.png)
+![Phase 2B](screenshots/2b.jpg)
 
 ### Implementation
 
@@ -54,11 +54,11 @@ Implemented `tree_parse`, `tree_serialize`, and `tree_from_index` in `tree.c`.
 
 #### 3A: pes workflow (init → add → status)
 
-![Phase 3A](screenshots/phase3_workflow.png)
+![Phase 3A](screenshots/3a.jpg)
 
 #### 3B: index file contents
 
-![Phase 3B](screenshots/phase3_index.png)
+![Phase 3B](screenshots/3b.jpg)
 
 ### Implementation
 
@@ -76,15 +76,15 @@ Implemented `index_load`, `index_save`, `index_add`, `index_status` in `index.c`
 
 #### 4A: commit log
 
-![Phase 4A](screenshots/phase4_log.png)
+![Phase 4A](screenshots/4a.jpg)
 
 #### 4B: object store growth
 
-![Phase 4B](screenshots/phase4_objects.png)
+![Phase 4B](screenshots/4b.jpg)
 
 #### 4C: HEAD and refs
 
-![Phase 4C](screenshots/phase4_refs.png)
+![Phase 4C](screenshots/4c.jpg)
 
 ### Implementation
 
@@ -126,3 +126,5 @@ All integration tests passed successfully:
 * Multiple commits created
 * Commit history traversed correctly
 * Reference chain verified
+
+---
